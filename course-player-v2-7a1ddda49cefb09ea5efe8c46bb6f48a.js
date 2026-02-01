@@ -1,17 +1,5 @@
 "use strict"
-<html>
-<head>
-  <title>Script Tag Example</title>
-</head>
-<body>
-  <p>Open the console to see the message.</p>
-  
-  <script>
-    console.log("Hello from JavaScript!");
-  </script>
-</body>
-</html>
-
+alert("This is an alert message box.");  
 function _typeof(e){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}define("course-player-v2/adapters/-json-api",["exports","@ember-data/adapter/json-api"],(function(e,t){Object.defineProperty(e,"__esModule",{value:!0}),Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})})),define("course-player-v2/adapters/application",["exports","active-model-adapter","course-player-v2/config/environment"],(function(e,t,n){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0
 e.default=t.default.extend({namespace:n.default.apiURL})})),define("course-player-v2/adapters/course",["exports","jquery","course-player-v2/config/environment","course-player-v2/adapters/application"],(function(e,t,n,o){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0
 e.default=o.default.extend({queryRecord:function(e,o,r){var s=this
