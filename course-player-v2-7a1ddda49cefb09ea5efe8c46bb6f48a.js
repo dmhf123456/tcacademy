@@ -5580,7 +5580,7 @@ define("course-player-v2/constants/blocking-modal-reasons", ["exports"], (functi
     }),
     //e.NOT_RELEASED = e.NON_FREE_TRIAL = e.IS_LOCKED = void 0
     //e.IS_LOCKED = "course-player-v2/BlockingModals/IS_LOCKED",
-    //e.NOT_RELEASED = "course-player-v2/BlockingModals/NOT_RELEASED",
+    e.NOT_RELEASED = "course-player-v2/BlockingModals/NOT_RELEASED",
     //e.NON_FREE_TRIAL = "course-player-v2/BlockingModals/NON_FREE_TRIAL"
 }
 )),
