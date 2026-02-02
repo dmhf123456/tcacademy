@@ -1,4 +1,5 @@
-"use strict"function _typeof(e) {
+"use strict"
+function _typeof(e) {
     return (_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
         return typeof e
     }
